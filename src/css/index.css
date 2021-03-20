@@ -1,0 +1,173 @@
+html,
+body {
+  height: 100%;
+  font-size: 65.5%;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+}
+.App {
+  height: 100vh;
+  background: black;
+}
+.Nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav .NavName {
+  text-align: center;
+  vertical-align: middle;
+  width: 20%;
+  height: 50%;
+}
+.Nav .NavButtons {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+.Nav .NavButtons div {
+  margin: 5% 5%;
+}
+.Landing {
+  width: 100%;
+}
+.Landing .LandingCenter {
+  width: 90%;
+  height: 80vh;
+  margin: 0 auto;
+  padding-top: 5%;
+  background: transparent left no-repeat url("https://cdn.discordapp.com/attachments/503243441149313024/822587194622607400/ryu1.png");
+  background-size: 600px;
+}
+.Landing .LandingCenter .LandingCenterText {
+  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.Landing .LandingCenter .LandingCenterText div {
+  margin: 0;
+  font-size: 3em;
+}
+.Social {
+  position: fixed;
+  top: 40%;
+  float: left;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  width: 3%;
+}
+.Scroll {
+  position: fixed;
+  width: 15%;
+  height: 10%;
+  right: -3%;
+  bottom: 15%;
+  z-index: 3;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+}
+.Scroll .ScrollText {
+  font-size: 0.7em;
+}
+.Scroll .DownArrow {
+  align-items: center;
+  margin-left: 4%;
+  width: 15%;
+  height: 5.6vh;
+}
