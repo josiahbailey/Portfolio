@@ -13,7 +13,7 @@ const Landing = () => {
                         Reactive
                     </div>
                     <div>
-                        Fullstack
+                        Frontend
                     </div>
                     <div>
                         Developer

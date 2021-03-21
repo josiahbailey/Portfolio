@@ -1,0 +1,47 @@
+.About {
+    height: 100vh;
+    background: darkcyan;
+    .AboutCenter {
+        width: 90%;
+        height: 80vh;
+        display: flex;
+        margin: 0 auto;
+        padding-top: 10%;
+        justify-content: space-around;
+
+        .AboutCenterRight, .AboutCenterLeft {
+            background: grey;
+            width: 40%;
+            height: 100%;
+        }
+
+        .AboutCenterRight {
+            padding: 2%;
+            p {
+                font-size: 0.6em;
+                margin: 5% 0;
+            }
+            h2 {
+                font-size: 0.8em;
+                margin: 5% 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .AboutCenterLeft {
+            .ProgressBar1 {
+                width: 90%;
+                height: 2%;
+                background: pink;
+                border-radius: 15px;
+
+                div {
+                    width: 90%;
+                    height: 100%;
+                    background: white;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+}
