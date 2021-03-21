@@ -191,17 +191,183 @@ video {
   margin: 5% 0;
   margin-bottom: 0;
 }
+.About .AboutCenter .AboutCenterLeft {
+  padding: 2%;
+}
 .About .AboutCenter .AboutCenterLeft .ProgressBar1 {
-  width: 90%;
-  height: 2%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar1 .BarOuter {
+  width: 70%;
+  height: 20%;
   background: pink;
   border-radius: 15px;
+  margin-top: 2%;
 }
-.About .AboutCenter .AboutCenterLeft .ProgressBar1 div {
+.About .AboutCenter .AboutCenterLeft .ProgressBar1 .BarOuter .BarInner {
   width: 90%;
   height: 100%;
   background: white;
   border-radius: 15px;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar1 .BarText {
+  margin-left: 4%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar1 .BarText h3 {
+  font-size: 0.8em;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar2 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar2 .BarOuter {
+  width: 70%;
+  height: 20%;
+  background: pink;
+  border-radius: 15px;
+  margin-top: 2%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar2 .BarOuter .BarInner {
+  width: 80%;
+  height: 100%;
+  background: white;
+  border-radius: 15px;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar2 .BarText {
+  margin-left: 4%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar2 .BarText h3 {
+  font-size: 0.8em;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar3 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar3 .BarOuter {
+  width: 70%;
+  height: 20%;
+  background: pink;
+  border-radius: 15px;
+  margin-top: 2%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar3 .BarOuter .BarInner {
+  width: 90%;
+  height: 100%;
+  background: white;
+  border-radius: 15px;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar3 .BarText {
+  margin-left: 4%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar3 .BarText h3 {
+  font-size: 0.8em;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar4 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar4 .BarOuter {
+  width: 70%;
+  height: 20%;
+  background: pink;
+  border-radius: 15px;
+  margin-top: 2%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar4 .BarOuter .BarInner {
+  width: 90%;
+  height: 100%;
+  background: white;
+  border-radius: 15px;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar4 .BarText {
+  margin-left: 4%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar4 .BarText h3 {
+  font-size: 0.8em;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar5 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar5 .BarOuter {
+  width: 70%;
+  height: 20%;
+  background: pink;
+  border-radius: 15px;
+  margin-top: 2%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar5 .BarOuter .BarInner {
+  width: 90%;
+  height: 100%;
+  background: white;
+  border-radius: 15px;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar5 .BarText {
+  margin-left: 4%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar5 .BarText h3 {
+  font-size: 0.8em;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar6 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar6 .BarOuter {
+  width: 70%;
+  height: 20%;
+  background: pink;
+  border-radius: 15px;
+  margin-top: 2%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar6 .BarOuter .BarInner {
+  width: 90%;
+  height: 100%;
+  background: white;
+  border-radius: 15px;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar6 .BarText {
+  margin-left: 4%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar6 .BarText h3 {
+  font-size: 0.8em;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar7 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar7 .BarOuter {
+  width: 70%;
+  height: 20%;
+  background: pink;
+  border-radius: 15px;
+  margin-top: 2%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar7 .BarOuter .BarInner {
+  width: 90%;
+  height: 100%;
+  background: white;
+  border-radius: 15px;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar7 .BarText {
+  margin-left: 4%;
+}
+.About .AboutCenter .AboutCenterLeft .ProgressBar7 .BarText h3 {
+  font-size: 0.8em;
 }
 .Projects {
   height: 100vh;

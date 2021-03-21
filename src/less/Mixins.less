@@ -1,0 +1,29 @@
+
+.ProgressBar(@Progress: 90%) {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .BarOuter {
+    width: 70%;
+    height: 20%;
+    background: pink;
+    border-radius: 15px;
+    margin-top: 2%;
+
+        .BarInner {
+            width: @Progress;
+            height: 100%;
+            background: white;
+            border-radius: 15px;
+        }
+    }
+
+    .BarText {
+        margin-left: 4%;
+        h3 {
+            font-size: 0.8em;
+        }
+    }
+}
