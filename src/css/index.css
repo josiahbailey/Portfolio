@@ -175,7 +175,6 @@ video {
 }
 .About .AboutCenter .AboutCenterRight,
 .About .AboutCenter .AboutCenterLeft {
-  background: grey;
   width: 40%;
   height: 100%;
 }
@@ -208,7 +207,7 @@ video {
   margin-top: 2%;
 }
 .About .AboutCenter .AboutCenterLeft .ProgressBar1 .BarOuter .BarInner {
-  width: 90%;
+  width: 80%;
   height: 100%;
   background: white;
   border-radius: 15px;
@@ -233,7 +232,7 @@ video {
   margin-top: 2%;
 }
 .About .AboutCenter .AboutCenterLeft .ProgressBar2 .BarOuter .BarInner {
-  width: 80%;
+  width: 70%;
   height: 100%;
   background: white;
   border-radius: 15px;
@@ -283,7 +282,7 @@ video {
   margin-top: 2%;
 }
 .About .AboutCenter .AboutCenterLeft .ProgressBar4 .BarOuter .BarInner {
-  width: 90%;
+  width: 80%;
   height: 100%;
   background: white;
   border-radius: 15px;
@@ -308,7 +307,7 @@ video {
   margin-top: 2%;
 }
 .About .AboutCenter .AboutCenterLeft .ProgressBar5 .BarOuter .BarInner {
-  width: 90%;
+  width: 95%;
   height: 100%;
   background: white;
   border-radius: 15px;
@@ -358,7 +357,7 @@ video {
   margin-top: 2%;
 }
 .About .AboutCenter .AboutCenterLeft .ProgressBar7 .BarOuter .BarInner {
-  width: 90%;
+  width: 80%;
   height: 100%;
   background: white;
   border-radius: 15px;
@@ -372,6 +371,28 @@ video {
 .Projects {
   height: 100vh;
   background: darkorchid;
+}
+.Projects .ProjectsCenter {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10%;
+  justify-content: space-around;
+}
+.Projects .ProjectsCenter .Project {
+  width: 25%;
+  padding: 1%;
+  background: blue;
+}
+.Projects .ProjectsCenter .Project .ProjectImg {
+  margin: 0 auto;
+}
+.Projects .ProjectsCenter .Project .ProjectDesc * {
+  margin: 4% 0;
+}
+.Projects .ProjectsCenter .Project .ProjectDesc p {
+  font-size: 0.5em;
 }
 .Contact {
   height: 100vh;
