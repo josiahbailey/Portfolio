@@ -139,8 +139,9 @@ video {
 .Landing {
   width: 100%;
   height: 100vh;
-  padding-top: 5%;
+  padding-top: 7%;
   background: gray;
+  padding-top: 5%;
 }
 .Landing .LandingCenter {
   width: 90%;
@@ -162,21 +163,24 @@ video {
   font-size: 3em;
 }
 .About {
+  width: 100%;
   height: 100vh;
+  padding-top: 7%;
   background: darkcyan;
 }
 .About .AboutCenter {
-  width: 90%;
+  width: 80%;
   height: 80vh;
   display: flex;
   margin: 0 auto;
-  padding-top: 10%;
   justify-content: space-around;
+  background: black;
 }
 .About .AboutCenter .AboutCenterRight,
 .About .AboutCenter .AboutCenterLeft {
   width: 40%;
-  height: 100%;
+  height: 70%;
+  margin: auto 0;
 }
 .About .AboutCenter .AboutCenterRight {
   padding: 2%;
@@ -187,7 +191,7 @@ video {
 }
 .About .AboutCenter .AboutCenterRight h2 {
   font-size: 0.8em;
-  margin: 5% 0;
+  margin-bottom: 5%;
   margin-bottom: 0;
 }
 .About .AboutCenter .AboutCenterLeft {
@@ -369,19 +373,23 @@ video {
   font-size: 0.8em;
 }
 .Projects {
+  width: 100%;
   height: 100vh;
+  padding-top: 7%;
   background: darkorchid;
 }
 .Projects .ProjectsCenter {
-  width: 90%;
+  width: 80%;
   height: 80vh;
   display: flex;
   margin: 0 auto;
-  padding-top: 10%;
   justify-content: space-around;
+  background: black;
 }
 .Projects .ProjectsCenter .Project {
   width: 25%;
+  height: 70%;
+  margin: auto 0;
   padding: 1%;
   background: blue;
 }
@@ -395,8 +403,52 @@ video {
   font-size: 0.5em;
 }
 .Contact {
+  width: 100%;
   height: 100vh;
+  padding-top: 7%;
   background: darkseagreen;
+}
+.Contact .ContactCenter {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  background: black;
+}
+.Contact .ContactCenter .ContactCenterLeft,
+.Contact .ContactCenter .ContactCenterRight {
+  height: 70%;
+  margin: auto 0;
+}
+.Contact .ContactCenter .ContactCenterLeft {
+  width: 30%;
+  background: green;
+}
+.Contact .ContactCenter .ContactCenterLeft .ContactTitle {
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+.Contact .ContactCenter .ContactCenterLeft .ContactTitle h2 {
+  font-size: 1.2em;
+}
+.Contact .ContactCenter .ContactCenterRight {
+  width: 50%;
+  background: firebrick;
+}
+.Contact .ContactCenter .ContactCenterRight form {
+  margin: 0 auto;
+  background: white;
+}
+.Contact .ContactCenter .ContactCenterRight .NameInput,
+.Contact .ContactCenter .ContactCenterRight .EmailInput,
+.Contact .ContactCenter .ContactCenterRight .MessageInput {
+  width: 80%;
+  height: 6vh;
+  margin: 2% 0 2% 9%;
+}
+.Contact .ContactCenter .ContactCenterRight .MessageInput {
+  height: 20vh;
 }
 .Social {
   position: fixed;

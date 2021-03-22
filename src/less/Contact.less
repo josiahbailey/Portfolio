@@ -1,4 +1,47 @@
 .Contact {
-    height: 100vh;
-    background: darkseagreen;
+    .PageContainer(darkseagreen);
+
+    .ContactCenter {
+        .PageCenter();
+        background: black;
+
+        .ContactCenterLeft, .ContactCenterRight {
+            height: 70%;
+            margin: auto 0;
+        }
+
+        .ContactCenterLeft {
+            width: 30%;
+            background: green;
+
+            .ContactTitle {
+                border-bottom: 1px solid white;
+                text-align: center;
+                h2 {
+                    font-size: 1.2em;
+                }
+            }
+        }
+
+        .ContactCenterRight {
+            width: 50%;
+            background: firebrick;
+
+            form {
+                margin: 0 auto;
+                // width: 80%;
+                background: white;
+            }
+
+            .NameInput, .EmailInput, .MessageInput {
+                width: 80%;
+                height: 6vh;
+                margin: 2% 0 2% 9%;
+            }
+
+            .MessageInput {
+                height: 20vh;
+            }
+        }
+    }
 }
